@@ -2,6 +2,8 @@
 #include<stdlib.h>
 #include<string.h>
 
+//teste
+
 typedef struct produto{
     int codigo;
     char nome_do_produto[30];
