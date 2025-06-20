@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-
+//teste2
 //teste
 
 typedef struct produto{
@@ -37,7 +37,7 @@ typedef struct cliente{
     struct cliente *prox;
 }Tcliente;
 
-//estruturas cabeÁas
+//estruturas cabe√ßas
 typedef struct{
     Tproduto *inicio;
     Tproduto *fim;
@@ -77,17 +77,17 @@ int main()
     do {
         printf("\n=== AGROTEC ===\n");
         printf("1 - Carregar dados do estoque\n");
-        printf("2 - Carregar preÁos\n");
-        printf("3 - Carregar histÛrico de vendas\n");
+        printf("2 - Carregar pre√ßos\n");
+        printf("3 - Carregar hist√≥rico de vendas\n");
         printf("4 - Carregar pedidos\n"); //ok
         printf("5 - Inserir novo produto\n");
         printf("6 - Inserir nova venda\n");
         printf("7 - Inserir novo cliente\n");
         printf("8 - Processar pedidos\n");
         printf("9 - Prever compras\n");
-        printf("10 - Gerar relatÛrio final\n");
+        printf("10 - Gerar relat√≥rio final\n");
         printf("0 - Sair\n");
-        printf("Escolha uma das opÁ„o: ");
+        printf("Escolha uma das op√ß√£o: ");
         scanf("%d", &opcao);
 
         switch (opcao) {
@@ -131,7 +131,7 @@ int main()
                 printf("Saindo...\n");
                 break;
             default:
-                printf("OpÁ„o inv·lida!\n");
+                printf("Op√ß√£o inv√°lida!\n");
         }
     }while(opcao!=0);
 
